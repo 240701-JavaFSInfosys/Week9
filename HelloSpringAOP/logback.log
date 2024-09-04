@@ -1,0 +1,51 @@
+15:26:06.716 [main] INFO  c.r.H.HelloSpringAopApplication - Starting HelloSpringAopApplication using Java 17.0.10 with PID 19236 (C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP\target\classes started by BenjaminPetruzziello in C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP)
+15:26:06.725 [main] DEBUG c.r.H.HelloSpringAopApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+15:26:06.727 [main] INFO  c.r.H.HelloSpringAopApplication - No active profile set, falling back to 1 default profile: "default"
+15:26:08.893 [main] INFO  c.r.H.HelloSpringAopApplication - Started HelloSpringAopApplication in 3.169 seconds (process running for 4.371)
+15:26:08.930 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='null', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setName(String)
+15:26:08.931 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:26:08.933 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setAge(int)
+15:26:08.933 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:26:08.934 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setOccupation(String)
+15:26:08.934 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:27:05.094 [main] INFO  c.r.H.HelloSpringAopApplication - Starting HelloSpringAopApplication using Java 17.0.10 with PID 20288 (C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP\target\classes started by BenjaminPetruzziello in C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP)
+15:27:05.100 [main] DEBUG c.r.H.HelloSpringAopApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+15:27:05.101 [main] INFO  c.r.H.HelloSpringAopApplication - No active profile set, falling back to 1 default profile: "default"
+15:27:06.961 [main] INFO  c.r.H.HelloSpringAopApplication - Started HelloSpringAopApplication in 2.572 seconds (process running for 3.559)
+15:27:07.014 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='null', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setName(String)
+15:27:07.015 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:27:07.016 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setAge(int)
+15:27:07.016 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:27:07.017 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setOccupation(String)
+15:27:07.017 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:27:07.018 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='Just a lil guy'} invoked String com.revature.HelloSpringAOP.models.Human.eat(int)
+15:27:07.018 [main] INFO  c.r.H.aspects.LoggingAspect - Kind?...: method-execution
+15:32:35.931 [main] INFO  c.r.H.HelloSpringAopApplication - Starting HelloSpringAopApplication using Java 17.0.10 with PID 18856 (C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP\target\classes started by BenjaminPetruzziello in C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP)
+15:32:35.940 [main] DEBUG c.r.H.HelloSpringAopApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+15:32:35.943 [main] INFO  c.r.H.HelloSpringAopApplication - No active profile set, falling back to 1 default profile: "default"
+15:32:37.645 [main] INFO  c.r.H.HelloSpringAopApplication - Started HelloSpringAopApplication in 2.414 seconds (process running for 3.341)
+15:32:37.657 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='null', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setName(String)
+15:32:37.657 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:32:37.657 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setAge(int)
+15:32:37.657 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:32:37.657 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setOccupation(String)
+15:32:37.657 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:32:37.658 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='Just a lil guy'} invoked String com.revature.HelloSpringAOP.models.Human.eat(int)
+15:32:37.658 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:32:37.659 [main] INFO  c.r.H.aspects.LoggingAspect - String com.revature.HelloSpringAOP.models.Human.eat(int) returned: I am eating 500 calories
+15:37:13.096 [main] INFO  c.r.H.HelloSpringAopApplication - Starting HelloSpringAopApplication using Java 17.0.10 with PID 1640 (C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP\target\classes started by BenjaminPetruzziello in C:\Users\BenjaminPetruzziello\Documents\Revature\Batches\240701-JavaFSINFOSYS\Week9\HelloSpringAOP)
+15:37:13.100 [main] DEBUG c.r.H.HelloSpringAopApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+15:37:13.101 [main] INFO  c.r.H.HelloSpringAopApplication - No active profile set, falling back to 1 default profile: "default"
+15:37:15.223 [main] INFO  c.r.H.HelloSpringAopApplication - Started HelloSpringAopApplication in 2.975 seconds (process running for 4.11)
+15:37:15.241 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='null', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setName(String)
+15:37:15.243 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:37:15.244 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=0, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setAge(int)
+15:37:15.244 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:37:15.244 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='null'} invoked void com.revature.HelloSpringAOP.models.Human.setOccupation(String)
+15:37:15.245 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:37:15.245 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='Just a lil guy'} invoked String com.revature.HelloSpringAOP.models.Human.eat(int)
+15:37:15.245 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:37:15.246 [main] INFO  c.r.H.aspects.LoggingAspect - String com.revature.HelloSpringAOP.models.Human.eat(int) returned: I am eating 500 calories
+15:37:15.247 [main] INFO  c.r.H.aspects.LoggingAspect - Human{name='Bartholomew', age=2, occupation='Just a lil guy'} invoked String com.revature.HelloSpringAOP.models.Human.eat(int)
+15:37:15.247 [main] INFO  c.r.H.aspects.LoggingAspect - Kind: method-execution
+15:37:15.247 [main] ERROR c.r.H.aspects.LoggingAspect - String com.revature.HelloSpringAOP.models.Human.eat(int) threw an exception: That's too many calories! You're gonna explode
